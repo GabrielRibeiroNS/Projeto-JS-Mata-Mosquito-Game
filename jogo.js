@@ -53,7 +53,7 @@ function posicaoRandomica(){
         if(vidas <= 0) {
             window.location.href = 'fim_de_jogo.html'
         } else {
-        document.getElementById('vida' + vidas).src="imagens/coracao_vazio.png"
+        document.getElementById('vida' + vidas).src="Imagens/coracao_vazio.png"
         vidas--
         }
     }    
@@ -68,7 +68,7 @@ function posicaoRandomica(){
 
     //criar elemento html
     var mosquito = document.createElement('img')
-    mosquito.src = 'imagens/mosquito.png'
+    mosquito.src = 'Imagens/mosquito.png'
     mosquito.className = tamanhoAleatorio() + ' ' + ladoAleatorio()
     mosquito.style.left = posicaoX + 'px' //Aqui concatena a posição randômica para o elemento em pixels.
     mosquito.style.top = posicaoY + 'px'
